@@ -2,7 +2,7 @@ services:
   - type: web
     name: cal-web
     plan: standard
-    repo: https://github.com/calcom/docker.git
+    repo: https://github.com/liricare-main/scheduling-docker.git
     dockerfilePath: ./Dockerfile.render
     env: docker
     envVars:
